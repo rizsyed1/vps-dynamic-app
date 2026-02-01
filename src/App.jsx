@@ -7,7 +7,7 @@ function App() {
    
   function handleIncrement() {
      axios
-      .post('/api/data', {count: count + 1})
+      .post('/api', {count: count + 1})
       .then(_ => {
         setCount(count + 1);
       })
@@ -15,7 +15,7 @@ function App() {
 
   function handleDecrement() {
     axios
-      .post('/api/data', {count: count - 1})
+      .post('/api', {count: count - 1})
       .then(_ => {
         setCount(count - 1);
       })
