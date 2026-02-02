@@ -1,5 +1,0 @@
-CREATE TABLE counts (
-  count INTEGER UNIQUE NOT NULL
-);
-
-INSERT INTO counts (count) VALUES (0)
