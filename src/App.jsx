@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import axios from 'axios';
-import os from 'os';
 
 const axiosInstance = axios.create({
   baseURL: 'https://www.riz-syed.co.uk:4000'
