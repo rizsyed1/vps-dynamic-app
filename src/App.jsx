@@ -3,7 +3,7 @@ import './App.css'
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://www.riz-syed.co.uk:4000'
+  baseURL: 'https://www.riz-syed.co.uk/api'
 })
 
 function App() {
