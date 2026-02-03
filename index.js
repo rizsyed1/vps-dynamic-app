@@ -39,7 +39,7 @@ app.post('/api', async (req, res) => {
   }
 });
 
-app.get('/health', (res, req) => {
+app.get('/health', (req, res) => {
   res.sendStatus(200);
 })
 
