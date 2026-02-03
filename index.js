@@ -39,6 +39,10 @@ app.post('/api', async (req, res) => {
   }
 });
 
+app.get('/health', (res, req) => {
+  res.sendStatus(200);
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
